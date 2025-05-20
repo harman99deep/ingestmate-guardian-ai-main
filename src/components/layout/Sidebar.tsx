@@ -22,10 +22,10 @@ export function Sidebar() {
   return (
     <div className="h-screen w-64 border-r bg-sidebar p-4 flex flex-col">
       {/* Logo */}
-      <div className="flex items-center gap-2 px-2 py-3">
+      <a href="/" className="flex items-center gap-2 px-2 py-3">
         <Laptop size={24} className="text-agent" />
         <h1 className="font-bold text-xl">IngestMate</h1>
-      </div>
+      </a>
       {/* Nav links */}
       <nav className="space-y-1 mt-8">
         <NavItem
